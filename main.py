@@ -1,8 +1,12 @@
 # main.py
 
 import argparse
+import sys
+import time
 from GrapplerModules.data_processing import process_data, generic_function
 from GrapplerModules.log_processing import run_grep_once
+import subprocess
+
 
 def main():
 
@@ -18,7 +22,7 @@ def main():
     
     
     args = parser.parse_args()
-    banner = """
+    banner ="""
                                                                                .____
                                                                         ____.((`    ))`.__
                                                                     ..((`                `))__
@@ -51,7 +55,10 @@ def main():
 `------'`------'`------'`------'`------'`------'`------'`------'`------'`------'`------'`------'`------'
                                                                          
         """
-    print(banner)
+    for char in banner:
+        sys.stdout.write(f"{char}")
+        sys.stdout.flush()
+        time.sleep(0.0001)
 
     if args.query:
         run_grep_once()
@@ -59,7 +66,7 @@ def main():
         
     else:
         run_grep_once()
-        combined_data, source_types = process_data(args.permiso_intel, args.add_file, args.query, args.source_type, args.json_output, args.start_date, args.end_date, args.file_size)
-        generic_function(combined_data, source_types, args.json_output, args.start_date, args.end_date, args.file_size)
+        combined_data, source_types, intel = process_data(args.permiso_intel, args.add_file, args.query, args.source_type, args.json_output, args.start_date, args.end_date, args.file_size)
+        generic_function(combined_data, source_types, args.json_output, args.start_date, args.end_date, args.file_size, intel)
 if __name__ == "__main__":
     main()

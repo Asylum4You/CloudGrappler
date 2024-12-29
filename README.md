@@ -15,14 +15,6 @@ To optimize your utilization of CloudGrappler, we recommend using shorter time r
 >pip3 install -r requirements.txt
 >```
 
-## Cloning cloudgrep locally
-
-To clone the cloudgrep repository locally, run the clone.sh file. Alternatively, you can manually clone the repository into the same directory where CloudGrappler was cloned.
-
->```bash
->chmod +x clone.sh
->./clone.sh
->```
 
 ## Input
 
@@ -58,6 +50,11 @@ Modifying the source inside the queries.json file to a wildcard character (*) wi
         "cloudgrappler"
       ]
     }
+  ],
+ "GCP": [
+    {
+      "gcp_bucket": "buketi"
+    }
   ]
 }
 ```
@@ -91,10 +88,14 @@ reports
     │           └── testTrails/AWSLogs/00000000/CloudTrail/eu-east-1/2024/03/03
     │               └── GetFileDownloadUrls.*secrets_.json
     └── AZURE
+    │    └── 2024-03-04 01:01 AM
+    │        └── logs
+    │            └── cloudgrappler
+    │                └── okta_key.json
+    └── GCP
         └── 2024-03-04 01:01 AM
-            └── logs
-                └── cloudgrappler
-                    └── okta_key.json
+            └── buketi
+                    └── modified_firewall.json
 ```
 
 ## Example 4 - Filtering logs based on date or time
@@ -129,3 +130,10 @@ The simplest way to authenticate with Azure is to first run:
 ``` az login ```
 
 This will open a browser window and prompt you to login to Azure.
+
+
+#### GCP ####
+You will need to create a service account and download the credentials file then set with:
+```
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/creds.json"
+```

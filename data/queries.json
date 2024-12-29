@@ -1,6 +1,270 @@
 [
   {
-    "Name": "CloudShell secrets file download",
+    "Name": "LLMHijacking Indicator",
+    "Query": "python-urllib3/2.0.7",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "axios/1.7.4",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "python-urllib3/2.0.5",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.11 aiohttp/3.9.5",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.11 aiohttp/3.9.3",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.12 aiohttp/3.9.5",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "axios/1.6.1",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.11 aiohttp/3.9.1",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.12 aiohttp/3.9.1",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.12 aiohttp/3.9.3",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.12 aiohttp/3.9.3",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "Python/3.12 aiohttp/3.9.3",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "InvokeModelWithResponseStream",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "InvokeModel",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "ListFoundationModelAgreementOffers",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "ListFoundationModelAgreementOffers",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "CreateFoundationModelAgreement",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "GetFoundationModelAvailability",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "ListInferenceProfiles",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "ListFoundationModels",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "GetModelInvocationLoggingConfiguration",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "PutFoundationModelEntitlement",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "PutUseCaseForModelAccess",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "LLMHijacking Indicator",
+    "Query": "GetUseCaseForModelAccess",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LLMJacking"
+    },
+    "Severity": "HIGH",
+    "Description": "TTP used when attackers perform LLMJacking/LLMHijacking in AWS"
+  },
+  {
+    "Name": "CloudShell secrets file downloaded",
     "Query": "GetFileDownloadUrls.*secrets_",
     "Source": "AWS",
     "Intel": {
@@ -22,7 +286,7 @@
     "Description": "An attacker exploiting the DisassociateFromMasterAccount eventName might gain unauthorized access, escalate privileges, disrupt operations, manipulate or steal data, and potentially impersonate legitimate entities within the system."
   },
   {
-    "Name": "Enabling Serial ConsoleAccess",
+    "Name": "Enable Serial ConsoleAccess",
     "Query": "EnableSerialConsoleAccess",
     "Source": "AWS",
     "Intel": {
@@ -33,7 +297,7 @@
     "Description": "An attacker could potentially leverage 'EnableSerialConsoleAccess' to bypass regular security measures and gain unauthorized entry or control over a system through direct access to its serial console."
   },
   {
-    "Name": "GuardDuty DeleteInvitations",
+    "Name": "GD DeleteInvitation",
     "Query": "DeleteInvitations",
     "Source": "AWS",
     "Intel": {
@@ -41,10 +305,10 @@
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": "An attacker could abuse 'DeleteInvitations' to remove pending invitations, potentially disrupting collaboration or gaining unauthorized access by eliminating traces of attempted or ongoing invitations within a system or platform."
+    "Description": "An attacker could abuse 'DeleteInvitations' to remove pending invitations, potentially disrupting collaboration or eliminating traces of attempted or ongoing invitations within a system or platform."
   },
   {
-    "Name": "GuardDuty DeleteDetector",
+    "Name": "GD DeleteDetector",
     "Query": "DeleteDetector",
     "Source": "AWS",
     "Intel": {
@@ -55,7 +319,7 @@
     "Description": "An attacker might misuse 'DeleteDetector' to initiate unauthorized deletion operations within a system, potentially causing data loss or disruption."
   },
   {
-    "Name": "ReplaceIamInstanceProfileAssociation",
+    "Name": "Replace Iam Instance Profile Association",
     "Query": "ReplaceIamInstanceProfileAssociation",
     "Source": "AWS",
     "Intel": {
@@ -66,7 +330,7 @@
     "Description": "An attacker could potentially misuse 'ReplaceIamInstanceProfileAssociation' to substitute an existing IAM instance profile association, gaining unauthorized permissions or access to resources associated with that profile."
   },
   {
-    "Name": "UpdateServiceSetting",
+    "Name": "Update Service Settings",
     "Query": "UpdateServiceSetting",
     "Source": "AWS",
     "Intel": {
@@ -120,7 +384,6 @@
     "Severity": "LOW",
     "Description": "S3 Browser 9.5.5 usage can be an indicator of LUCR1 attack. Since this group preferes using older version of S3 Browser."
   },
-
   {
     "Name": "Malicious IAM User",
     "Query": "ses_legion",
@@ -130,7 +393,7 @@
       "Value": "Legion"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Indicates potential usage of Legion for spam campaigns or unauthorized access."
   },
   {
     "Name": "Malicious IAM User",
@@ -141,7 +404,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -152,7 +415,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -163,18 +426,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
-  },
-  {
-    "Name": "Malicious IAM User",
-    "Query": "AdminsDDefault",
-    "Source": "AWS",
-    "Intel": {
-      "Type": "TOOL",
-      "Value": "androxgh0st-greenbot"
-    },
-    "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -185,7 +437,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -196,7 +448,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -207,7 +459,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -218,7 +470,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious ARN",
@@ -229,7 +481,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -240,7 +492,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -251,7 +503,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -262,7 +514,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -273,7 +525,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -284,7 +536,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM User",
@@ -295,7 +547,7 @@
       "Value": "Legion"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Indicates potential usage of Legion for spam campaigns or unauthorized access."
   },
   {
     "Name": "Malicious IAM User",
@@ -306,7 +558,7 @@
       "Value": "Legion"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Indicates potential usage of Legion for spam campaigns or unauthorized access."
   },
   {
     "Name": "Malicious AWS Account ID",
@@ -317,7 +569,7 @@
       "Value": "androxgh0st-greenbot"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM user linked to Greenbot tool activities."
   },
   {
     "Name": "Malicious IAM Group",
@@ -328,10 +580,10 @@
       "Value": "Legion"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Identified as a compromised IAM group linked to Greenbot tool activities."
   },
   {
-    "Name": "LUCR3 Searches",
+    "Name": "LUCR-3 Searches",
     "Query": "s3_secret",
     "Source": "AZURE",
     "Intel": {
@@ -342,7 +594,7 @@
     "Description": "Typical query searched by LUCR3 Threat Actor"
   },
   {
-    "Name": "New InboxRule.*DeleteMessage",
+    "Name": "New-InboxRule",
     "Query": "New-InboxRule",
     "Source": "AZURE",
     "Intel": {
@@ -350,10 +602,21 @@
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Threat actors, including LUCR3, often use such commands to establish control over victim mailboxes. Research by Permiso highlights this as a common tactic in email compromise scenarios."
   },
   {
-    "Name": "Set TransportRule.*DeleteMessage",
+    "Name": "Set-InboxRule",
+    "Query": "Set-InboxRule",
+    "Source": "AZURE",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "LUCR3"
+    },
+    "Severity": "MEDIUM",
+    "Description": "Attackers may adjust rules to ensure persistence or stealth. LUCR3 activity, as tracked by Permiso, shows frequent use of this technique in prolonged intrusions."
+  },
+  {
+    "Name": "Set-TransportRule",
     "Query": "Set-TransportRule",
     "Source": "AZURE",
     "Intel": {
@@ -361,10 +624,10 @@
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "This detection covers changes to transport rules, which can be used to redirect or block emails at a broader level. LUCR3 has been observed by Permiso leveraging such methods for data exfiltration and communication control."
   },
   {
-    "Name": "New-TransportRule.*DeleteMessage",
+    "Name": "New-TransportRule",
     "Query": "New-TransportRule",
     "Source": "AZURE",
     "Intel": {
@@ -372,215 +635,270 @@
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Attackers such as LUCR3 tend to manipulate email flow. Permiso research notes this as a significant indicator of malicious configuration changes."
   },
   {
-    "Name": "Enable-InboxRule.*DeleteMessage",
-    "Query": "Enable-InboxRule.*DeleteMessage",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*okta_key",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for the term 'okta_key', which may indicate reconnaissance or attempts to locate sensitive Okta-related information within SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "GMAIL in MFA",
-    "Query": "@gmail.com",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*SNOWFLAKE_",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches the term 'SNOWFLAKE' for Snowflake-related credentials or resources within SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "@gmail.com",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*api.cloudflare.com",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for the term 'api.cloudflare.com' Cloudflare API references in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "esxi root@",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*sendgrid_",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for SendGrid-related information in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "okta_key",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*shodan_api",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for Shodan API keys or related data in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "SNOWFLAKE_",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*administrator@vsphere.local",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for vSphere administrator credentials in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "api.cloudflare.com",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*aws_access_key_id",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches the term 'aws_access_key_id' for AWS access keys by LUCR-3 within SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "sendgrid_",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*user database",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for 'user database', potentially indicating attempts to access sensitive user data stored in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "shodan_api",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*confidential",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for the term 'confidential' in files or data in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs)."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "administrator@vsphere.local",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*vault password",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for 'vault password' by LUCR-3 in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs).."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "aws_access_key_id",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*securestring",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for 'securestring' fields in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs).."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "user database",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*twilio_api_key",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for the term 'twilio_api_key' Twilio API keys in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs).."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "confidential",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*crowdstrike_api",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for the term 'crowdstrike_api' CrowdStrike API keys or configurations in SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs).."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "vault password",
+    "Name": "LUCR-3 Searches",
+    "Query": "SearchQueryText.*AKIA*",
     "Source": "AZURE",
     "Intel": {
       "Type": "TTP",
       "Value": "LUCR3"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "The query searches for the term '*AKIA*' AWS access keys (starting with 'AKIA') within SharePoint. Permiso actively tracks this search term to identify and mitigate LUCR-3(TTPs).."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "securestring",
-    "Source": "AZURE",
+    "Name": "Gui-Vil Intel",
+    "Query": "zindanjelek",
+    "Source": "AWS",
     "Intel": {
       "Type": "TTP",
-      "Value": "LUCR3"
+      "Value": "Gui-Vil"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Potential IOC tied to Gui-Vil's cloud infrastructure exploitation."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "s3_secret",
-    "Source": "AZURE",
+    "Name": "Gui-Vil Intel",
+    "Query": "bareskrim",
+    "Source": "AWS",
     "Intel": {
       "Type": "TTP",
-      "Value": "LUCR3"
+      "Value": "Gui-Vil"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Suspicious activity associated with Gui-Vil's cloud operations."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "twilio_api_key",
-    "Source": "AZURE",
+    "Name": "Obsidian Research SaaS Ransomware",
+    "Query": "_0mega_prevent_leakage",
+    "Source": "AWS",
     "Intel": {
       "Type": "TTP",
-      "Value": "LUCR3"
+      "Value": "TA"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Indicator linked to Obsidian ransomware."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "crowdstrike api",
-    "Source": "AZURE",
+    "Name": "Intel",
+    "Query": "sysall",
+    "Source": "AWS",
     "Intel": {
       "Type": "TTP",
-      "Value": "LUCR3"
+      "Value": "TA"
     },
     "Severity": "MEDIUM",
-    "Description": ""
+    "Description": "Generic indicator tied to unauthorized system-wide access."
   },
   {
-    "Name": "LUCR3 Searches",
-    "Query": "AKIA*",
-    "Source": "AZURE",
+    "Name": "Venom_SMS",
+    "Query": "SMTPEX",
+    "Source": "AWS",
     "Intel": {
       "Type": "TTP",
-      "Value": "LUCR3"
+      "Value": "Venom_SMS"
     },
     "Severity": "MEDIUM",
-    "Description": ""
-  }  
+    "Description": "Indicator of malicious SMS or email spoofing campaigns."
+  },
+  {
+    "Name": "TA",
+    "Query": "opsecx12",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "TA"
+    },
+    "Severity": "MEDIUM",
+    "Description": "Operational security artifact used by threat actors."
+  },
+  {
+    "Name": "TA",
+    "Query": "s3mize",
+    "Source": "AWS",
+    "Intel": {
+      "Type": "TTP",
+      "Value": "TA"
+    },
+    "Severity": "MEDIUM",
+    "Description": "Possible malicious S3 operation or abuse of AWS storage."
+  },
+  {
+    "Name": "Enabling Serial ConsoleAccess",
+    "Query": "serial-port-enable",
+    "Source": "GCP",
+    "Intel": {
+      "Type": "Threat Actor",
+      "Value": "LUCR3"
+    },
+    "Severity": "HIGH",
+    "Description": "Review use of CloudShell. Permiso seldom witnesses use of CloudShell outside of known attackers.This however may be a part of your normal business use case."
+  },
+  {
+    "Name": "Delete Firewall Rule",
+    "Query": "compute.firewalls.delete",
+    "Source": "GCP",
+    "Intel": {
+      "Type": "Threat Actor",
+      "Value": "LUCR3"
+    },
+    "Severity": "HIGH",
+    "Description": "Review use of CloudShell. Permiso seldom witnesses use of CloudShell outside of known attackers.This however may be a part of your normal business use case."
+  },
+  {
+    "Name": "Update Firewall Rule",
+    "Query": "compute.firewalls.update",
+    "Source": "GCP",
+    "Intel": {
+      "Type": "Threat Actor",
+      "Value": "LUCR3"
+    },
+    "Severity": "HIGH",
+    "Description": "Review use of CloudShell. Permiso seldom witnesses use of CloudShell outside of known attackers.This however may be a part of your normal business use case."
+  }
 ]
